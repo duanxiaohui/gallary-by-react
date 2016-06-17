@@ -65,9 +65,15 @@
     "postcss-loader": "^0.8.0"
   },
   "dependencies": {
+    "bragi-browser": "0.0.11",
     "core-js": "^2.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "moment": "^2.13.0",
     "normalize.css": "^4.0.0",
     "react": "^15.0.0",
-    "react-dom": "^15.0.0"
+    "react-document-title": "^2.0.2",
+    "react-dom": "^15.0.0",
+    "react-router": "^2.4.0",
+    "webpack-zepto": "0.0.1"
   }
 }

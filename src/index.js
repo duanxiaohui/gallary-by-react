@@ -1,7 +1,20 @@
+
+require('normalize.css/normalize.css');
+
+//require("./styles/less/index.less");
+
+
 import 'core-js/fn/object/assign';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/Main';
+import ReactDom from 'react-dom';
+import logger from 'bragi-browser';
+import { Router, Route, Link, hashHistory  } from 'react-router';
 
-// Render the main component into the dom
-ReactDOM.render(<App />, document.getElementById('app'));
+import routes from './routes.jsx';
+
+
+const rootEl =document.getElementById('app');
+
+logger.log("main", "start rendering the app..." );
+
+ReactDom.render( <Router routes={routes} history={hashHistory}/>, rootEl);

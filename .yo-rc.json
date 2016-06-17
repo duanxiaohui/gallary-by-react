@@ -1,6 +1,6 @@
 {
   "generator-react-webpack": {
-    "appName": "gallaryByReact",
+    "appName": "newFront",
     "style": "sass",
     "postcss": true,
     "generatedWithVersion": 3
